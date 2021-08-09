@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BSHHousekeeperLog'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BSHHousekeeperLog.'
+  s.version          = '1.0.0'
+  s.summary          = ' BSHHousekeeperLog. Is used for BSH'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/307012795@qq.com/BSHHousekeeperLog'
+  s.homepage         = 'https://github.com/minfengfu/BSHHousekeeperLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '307012795@qq.com' => '307012795@qq.com' }
-  s.source           = { :git => 'https://github.com/307012795@qq.com/BSHHousekeeperLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/minfengfu/BSHHousekeeperLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BSHHousekeeperLog/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BSHHousekeeperLog' => ['BSHHousekeeperLog/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'BSHHousekeeperLog' => ['BSHHousekeeperLog/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

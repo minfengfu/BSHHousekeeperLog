@@ -1,0 +1,16 @@
+PODS:
+  - BSHHousekeeperLog (0.1.0)
+
+DEPENDENCIES:
+  - BSHHousekeeperLog (from `../`)
+
+EXTERNAL SOURCES:
+  BSHHousekeeperLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSHHousekeeperLog: 9e243f462250002d2afe032a0b8a47d2d0fd3419
+
+PODFILE CHECKSUM: a7337af95fea1db1ea78fe7ca6ac9973b92ffe43
+
+COCOAPODS: 1.10.1

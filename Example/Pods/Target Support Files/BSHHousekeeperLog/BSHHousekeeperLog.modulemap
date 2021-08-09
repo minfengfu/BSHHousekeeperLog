@@ -1,0 +1,6 @@
+framework module BSHHousekeeperLog {
+  umbrella header "BSHHousekeeperLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
