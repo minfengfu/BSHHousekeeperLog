@@ -1,15 +1,22 @@
 PODS:
-  - BSHHousekeeperLog (0.1.0)
+  - BSHHousekeeperLog (1.0.2):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - BSHHousekeeperLog (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs:
+    - Masonry
 
 EXTERNAL SOURCES:
   BSHHousekeeperLog:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BSHHousekeeperLog: 9e243f462250002d2afe032a0b8a47d2d0fd3419
+  BSHHousekeeperLog: 57353fb02c6d6a7cd6475ea94d979018c56eb222
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: a7337af95fea1db1ea78fe7ca6ac9973b92ffe43
 
