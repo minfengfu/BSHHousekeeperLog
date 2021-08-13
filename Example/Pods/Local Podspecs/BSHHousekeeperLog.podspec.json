@@ -1,6 +1,6 @@
 {
   "name": "BSHHousekeeperLog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "BSHHousekeeperLog. Is used for BSH",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/minfengfu/BSHHousekeeperLog",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/minfengfu/BSHHousekeeperLog.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"

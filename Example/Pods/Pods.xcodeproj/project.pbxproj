@@ -7,72 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB59B5531CB6BD60CC06B5DEBFFE997 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		145896172C8A14853247EF1F81DC2FAE /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A442276F3FF37CB800B19D2C94AA339 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF3266F23C48F2EEB1AE5CBC1A098FF /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
-		204F6E06CEFB245FBFBB1790AAC853A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */; };
-		2249CF13FD7773DFE32FA53F7F340D6D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37F75162B12870808C54E57A01F4C975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		3B3E5DC02BC15FF8748B5D503CC79CE6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		05ED1C1F7758AFF12CCBB65E15930EA0 /* BSHHousekeeperLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC81AF6445F716C4174BF50B5C3F5F7 /* BSHHousekeeperLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0671C92326C5F83400D3488E /* BSHSignAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0671C91C26C5F83400D3488E /* BSHSignAlertView.h */; };
+		0671C92426C5F83400D3488E /* BSHSignView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0671C91D26C5F83400D3488E /* BSHSignView.h */; };
+		0671C92526C5F83400D3488E /* BSHSignAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671C91E26C5F83400D3488E /* BSHSignAlertView.m */; };
+		0671C92626C5F83400D3488E /* BSHSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671C91F26C5F83400D3488E /* BSHSignView.m */; };
+		0671C92726C5F83400D3488E /* BSHHouseKeeperLogVCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0671C92126C5F83400D3488E /* BSHHouseKeeperLogVCViewController.h */; };
+		0671C92826C5F83400D3488E /* BSHHouseKeeperLogVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671C92226C5F83400D3488E /* BSHHouseKeeperLogVCViewController.m */; };
+		0B1FD660697C6524C8B580B07D7507F2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		14D74795A191F2939DF718D1C8BAB233 /* BSHHousekeeperLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46D68693015DA9BF10CA6A95202ED2 /* BSHHousekeeperLog-dummy.m */; };
+		25C3F0818540FC893E5CACE62775DEEC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		2A3C777E4E57FC1560ACFCEF5495A05D /* BSHHouseKeeperLogVCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2B0C809914CECD77ED193AFDF4F6B0 /* BSHHouseKeeperLogVCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32EF4D8482115B65923D306C2D70E8B3 /* Target_HouseKeeperLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377ADE9134397CE96FC0EE88093A7F5 /* Target_HouseKeeperLog.m */; };
+		3604E842E31C301E72C81376919D722D /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF624E41F3FD66737A315F6ADDBB469 /* Pods-BSHHousekeeperLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FBDB31C603B150D09DEBC07B3ECA03 /* Pods-BSHHousekeeperLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4608C8E807BE91373DF14476191CE860 /* BSHHousekeeperLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DC3040D114B38FCD81510390C67D60 /* BSHHousekeeperLog-dummy.m */; };
-		4B24B29267890F372477FDF4FB1737E4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		4F22A7B9524FD19B2B8C43B79AE257D8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8C8722A672A3E17ED658E230D6364D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48954FF04331B21A634EC19142F23D92 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D7A3598D54A7DA462BA923939D31C98 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50448BC6D8E2477A5F07E2B1A8AB388C /* Pods-BSHHousekeeperLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D061BCD8707F159E288692B0DEC8E798 /* Pods-BSHHousekeeperLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5286F135E725B52E5621DE14205FBC38 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		537F10D75CFD77D1F1F9912054A31FC0 /* BSHHousekeeperLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9FE7B2A011BA5E12C3D2CAEC4E71C7 /* BSHHousekeeperLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		587D4F963F2102D059CD818613217429 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		5B02422926528C03771025D34239629E /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 706108098D05C091E333D02A395CC9C2 /* UIColor+ColorChange.m */; };
-		5B8E958CE9BA206696F534CD8AA1861C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		65F7275FC068095D50F7B793F77E56E4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		705F1D363C64B265A03264DC60C0A19C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		7350C20B795F65DA7F007056DD703130 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		516DE41B4976D2D8DB154072D183CDC1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		57737E2AF43536798309C3F6F519D5EA /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5D6A569F5EB62E5C98C7BCECD21048 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		5B0D88B86269678CE219F6286B3A1088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		5EEA88ACD5C460403D44EB1B4362A585 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		686E07C2BFB7835CE5274BFB2008D171 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CF9335D3FBA296C04E83D6CAE4022EE /* BSHSignAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F97E6E970BF97FBC40A4CB77217559CA /* BSHSignAlertView.m */; };
+		6E2621DB57F78450154F55BFBC7862AB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7867958F1D3F16F9FC1586DA2D2AE7E7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
 		790B889FDDF7DE9B1AF269BC10E77F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
 		79A79B1A24001C95713CCF64F94FAFA7 /* Pods-BSHHousekeeperLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 619CE0F0034E274861F34197B3D01623 /* Pods-BSHHousekeeperLog_Example-dummy.m */; };
-		7FF5B8DE4EECE3BF37560B5274E9C8CF /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EEA93AC498FC065A08A6C56F7A6F7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
-		9FA20F72335159E752D7CE97EBC7DD86 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A64004CD6ACEAF1D7F16B3E67E4A581E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABB7D0563094575F2D5E6A03EC51C285 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACCD7C4050FC69BB639C97B8B5B538E9 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C41720E433C000B90BCDCDF8592DAB66 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		D1762A569B680F9D8B1164AB1428847E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D425B6AC9B3FEBBEF7AF10E1B9B1EB6A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D62E9C051262AE5DF53D464C9A49D225 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4A8DBEF2A71F60997DB23092E6C2E60 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		E91B216B0EFAB67269FBFF2C61DDFFCF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2C9009709D281DA518B8317F3C9F465 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B6DA7D6AFB8534DC66A73F61DF95A21 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		8103BBE97CBD19519C77424C3ED2683B /* BSHSignView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A5D64FCD39CF5C3E2449FA3FB4B895 /* BSHSignView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8BA4A4D0305214A1E1F520D6FCF916 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */; };
+		8C07E8301D6A4E63B371F5B753B0E18A /* BSHHouseKeeperLogVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB0C964904A54601C80B644B5C4C2F /* BSHHouseKeeperLogVCViewController.m */; };
+		8FEC793B244F469197B89624360F5D02 /* Target_HouseKeeperLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D04E7F9D3188816D68C02C260D366A8 /* Target_HouseKeeperLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D97CE376A1E807BDF5600E80AF5681 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932CE6567AA11B98CC29AF8F31AF4C7F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D775F9A47816E7C24A41217E3FB211 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D18213B4F17AE3320D080E60D4C79E9 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A501091FD74FCB5C71C4865B64647738 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA15B61B7568C373EA39F124B1EBC09 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB91822DF65F2C8F8D6F4816BB6155E /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D4113C75229ED945697125BA13059D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		CC3FEC7254C22349758CBB7CC8E88FDD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		D33503DDBF042E9F080100D019603D5F /* BSHSignAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9740A9F25114173F7C6E680856A85907 /* BSHSignAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D8FEB966CAE4180565CF5DA8AA2B9A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		E20A81EC78B601CFFEA14987D41C59AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		E91126F2C6357E4766F928C3AAFF9981 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE612B13A16320C5CB9E0839FF44B05E /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1E7D96C72CA234EA506571ADDF3A1E0 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		F4E8752B0B0FA6860F4C4721B0ED807B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		F6309D2B6F9665F5D4E656AD5DAC24BF /* Pods-BSHHousekeeperLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE033403058FAB2AD396514C2B102D /* Pods-BSHHousekeeperLog_Tests-dummy.m */; };
-		F73A506ED40A3A69D20416EF4380D44F /* UIColor+ColorChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 70970D50E9526737CA0AA0F8F1945853 /* UIColor+ColorChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0405CEBA10811FEE4D9DD16B201B7F /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCE19E32CE1DF29CAA035742D427074D /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C72C982FB0E3BEF52D4B780E1CD722 /* BSHSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209E87D6AA93E60D300773840F302972 /* BSHSignView.m */; };
 		FD86E01B64E9A2BF39319E0D79EF1E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43168BEA6B3FD1156F89B22A9281FDB8 /* PBXContainerItemProxy */ = {
+		28DDA49DC2C1378E889EEAC13F78B4AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2E3B3CFB2F043A9A688E1A85A6DD21AD;
 			remoteInfo = "Pods-BSHHousekeeperLog_Example";
 		};
-		4490E906349DE875D4A9ABCF8D8587DC /* PBXContainerItemProxy */ = {
+		63C42DD21826592BB3A2467DC1BA3925 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C1B5995DD04A298FE720FA67A3EBA2E1;
 			remoteInfo = BSHHousekeeperLog;
 		};
-		D1408C92B97CA7E62DB6A8CFE1E77775 /* PBXContainerItemProxy */ = {
+		7C1AE382F6429D20FAEBB3EE9DA52DC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		FE492E0FC060ED7D0E2D4BC374BFDE4A /* PBXContainerItemProxy */ = {
+		D65FF72AE1BC8582C7AC5647F845E0CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -83,100 +95,103 @@
 
 /* Begin PBXFileReference section */
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		0377ADE9134397CE96FC0EE88093A7F5 /* Target_HouseKeeperLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_HouseKeeperLog.m; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0671C91C26C5F83400D3488E /* BSHSignAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHSignAlertView.h; sourceTree = "<group>"; };
+		0671C91D26C5F83400D3488E /* BSHSignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHSignView.h; sourceTree = "<group>"; };
+		0671C91E26C5F83400D3488E /* BSHSignAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHSignAlertView.m; sourceTree = "<group>"; };
+		0671C91F26C5F83400D3488E /* BSHSignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHSignView.m; sourceTree = "<group>"; };
+		0671C92126C5F83400D3488E /* BSHHouseKeeperLogVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHHouseKeeperLogVCViewController.h; sourceTree = "<group>"; };
+		0671C92226C5F83400D3488E /* BSHHouseKeeperLogVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHHouseKeeperLogVCViewController.m; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		0CBE033403058FAB2AD396514C2B102D /* Pods-BSHHousekeeperLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSHHousekeeperLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		13D6D8B823C16659DC764A0C9FBD9966 /* Pods-BSHHousekeeperLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSHHousekeeperLog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1A275683C7DA6B9A9B9697DA7216DAC0 /* BSHHousekeeperLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSHHousekeeperLog-Info.plist"; sourceTree = "<group>"; };
-		1A9FE7B2A011BA5E12C3D2CAEC4E71C7 /* BSHHousekeeperLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSHHousekeeperLog-umbrella.h"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21578CE2AF22B9B80E10A64B1876E05A /* BSHHousekeeperLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BSHHousekeeperLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		209E87D6AA93E60D300773840F302972 /* BSHSignView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSHSignView.m; sourceTree = "<group>"; };
 		266686246F6A5BF5FB9CAEC4D3AD00D8 /* Pods-BSHHousekeeperLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSHHousekeeperLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2CC81AF6445F716C4174BF50B5C3F5F7 /* BSHHousekeeperLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSHHousekeeperLog-umbrella.h"; sourceTree = "<group>"; };
+		303975DE972CA19C683EA60BD0710E2D /* BSHHousekeeperLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSHHousekeeperLog.modulemap; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		32277955F6371B3F2F5F090FA3C03408 /* Pods-BSHHousekeeperLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSHHousekeeperLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		33FA772FF243FBF4B17678190843ADC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3AECAA812F4EC7CB95A34E15579C072C /* Pods_BSHHousekeeperLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSHHousekeeperLog_Example.framework; path = "Pods-BSHHousekeeperLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AECAA812F4EC7CB95A34E15579C072C /* Pods_BSHHousekeeperLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSHHousekeeperLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6D70065E6DB3FA4B944A1514933E55 /* Pods-BSHHousekeeperLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSHHousekeeperLog_Tests.modulemap"; sourceTree = "<group>"; };
 		3C6A862BFBC69A3746FAD5400CE410D0 /* Pods-BSHHousekeeperLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSHHousekeeperLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		407BCF863B44A041B7A20643E00120CD /* BSHHousekeeperLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSHHousekeeperLog.debug.xcconfig; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		4298C6E28C84CC216BFD8993767A00C7 /* BSHHousekeeperLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSHHousekeeperLog.release.xcconfig; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		53F671671282A53FD693685D6E4BD9D9 /* BSHHousekeeperLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSHHousekeeperLog.framework; path = BSHHousekeeperLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F671671282A53FD693685D6E4BD9D9 /* BSHHousekeeperLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSHHousekeeperLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5D04E7F9D3188816D68C02C260D366A8 /* Target_HouseKeeperLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_HouseKeeperLog.h; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		619CE0F0034E274861F34197B3D01623 /* Pods-BSHHousekeeperLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSHHousekeeperLog_Example-dummy.m"; sourceTree = "<group>"; };
+		64860579EBAD57E859F763769256707E /* BSHHousekeeperLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSHHousekeeperLog.release.xcconfig; sourceTree = "<group>"; };
+		6808E68802FFDB9006A981B9B8F16971 /* BSHHousekeeperLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BSHHousekeeperLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BCB30A1E5DA92FAE4533DDA16DF0134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		706108098D05C091E333D02A395CC9C2 /* UIColor+ColorChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorChange.m"; path = "BSHHousekeeperLog/Classes/UIColor+ColorChange.m"; sourceTree = "<group>"; };
-		70970D50E9526737CA0AA0F8F1945853 /* UIColor+ColorChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorChange.h"; path = "BSHHousekeeperLog/Classes/UIColor+ColorChange.h"; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		72B9AC9A8BF4664B45854EDAD68275E0 /* Pods-BSHHousekeeperLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSHHousekeeperLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73A5D64FCD39CF5C3E2449FA3FB4B895 /* BSHSignView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSHSignView.h; sourceTree = "<group>"; };
 		77B16353A3B70798D7BB40D41651AFBB /* Pods-BSHHousekeeperLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSHHousekeeperLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F46D68693015DA9BF10CA6A95202ED2 /* BSHHousekeeperLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSHHousekeeperLog-dummy.m"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8DEE43C883554E5AF69280304DA5CB3F /* Pods-BSHHousekeeperLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSHHousekeeperLog_Example.modulemap"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		90FBDB31C603B150D09DEBC07B3ECA03 /* Pods-BSHHousekeeperLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSHHousekeeperLog_Example-umbrella.h"; sourceTree = "<group>"; };
-		983F748ADDF10BD522A4DED62B33CB51 /* Pods_BSHHousekeeperLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSHHousekeeperLog_Tests.framework; path = "Pods-BSHHousekeeperLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F837A17D560376B12C4FC0DE6D833A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9740A9F25114173F7C6E680856A85907 /* BSHSignAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSHSignAlertView.h; sourceTree = "<group>"; };
+		983F748ADDF10BD522A4DED62B33CB51 /* Pods_BSHHousekeeperLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSHHousekeeperLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		AB14F66ADC6D62D16D74E6B890B4687C /* Pods-BSHHousekeeperLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSHHousekeeperLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		B6885378DBEB19AA15D60EC1D083883B /* BSHHousekeeperLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSHHousekeeperLog.debug.xcconfig; sourceTree = "<group>"; };
+		B38509B6F45E6A929695EF87AF13FEBD /* BSHHousekeeperLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSHHousekeeperLog-Info.plist"; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BE2B0C809914CECD77ED193AFDF4F6B0 /* BSHHouseKeeperLogVCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BSHHouseKeeperLogVCViewController.h; sourceTree = "<group>"; };
+		C3F2A892489BB67924EDDF91AEC5BEAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C664AD3232C964BC17FC3BACCDB91AA5 /* Pods-BSHHousekeeperLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSHHousekeeperLog_Tests-Info.plist"; sourceTree = "<group>"; };
-		C6BC63BA4F19C4A96E5658A9AD410C5E /* BSHHousekeeperLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSHHousekeeperLog.modulemap; sourceTree = "<group>"; };
-		CAB02DC04489347AD145B8DA1975A1FE /* BSHHousekeeperLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSHHousekeeperLog-prefix.pch"; sourceTree = "<group>"; };
 		CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D061BCD8707F159E288692B0DEC8E798 /* Pods-BSHHousekeeperLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSHHousekeeperLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D6BB0C964904A54601C80B644B5C4C2F /* BSHHouseKeeperLogVCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSHHouseKeeperLogVCViewController.m; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E4DFE6046AF89B669519FF26E66AD8E5 /* BSHHousekeeperLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSHHousekeeperLog-prefix.pch"; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		EF81EB7CD83E97869CB3DD3A262AB8F6 /* Pods-BSHHousekeeperLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSHHousekeeperLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1DC3040D114B38FCD81510390C67D60 /* BSHHousekeeperLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSHHousekeeperLog-dummy.m"; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F45E13CBC3C5A52C2E0D5BB738089464 /* Pods-BSHHousekeeperLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSHHousekeeperLog_Example-Info.plist"; sourceTree = "<group>"; };
 		F7CB8355792FA2A1062EAD8D418D3CA0 /* Pods-BSHHousekeeperLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSHHousekeeperLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F97E6E970BF97FBC40A4CB77217559CA /* BSHSignAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BSHSignAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10935585889D90C0E1F0AA7648D71C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0D88B86269678CE219F6286B3A1088 /* Foundation.framework in Frameworks */,
+				F1E7D96C72CA234EA506571ADDF3A1E0 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DE620BB8E6B374AD902CFE170F62B63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD86E01B64E9A2BF39319E0D79EF1E01 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		791545BED9AEF81591AE98C8996604BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37F75162B12870808C54E57A01F4C975 /* Foundation.framework in Frameworks */,
-				1AF3266F23C48F2EEB1AE5CBC1A098FF /* Masonry.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		925C37B9E041B3FB0DC15036878CD275 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EEA93AC498FC065A08A6C56F7A6F7BA /* Foundation.framework in Frameworks */,
-				204F6E06CEFB245FBFBB1790AAC853A1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +203,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C90E7054639DCBB0C42C47A1291756F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20A81EC78B601CFFEA14987D41C59AD /* Foundation.framework in Frameworks */,
+				8B8BA4A4D0305214A1E1F520D6FCF916 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0671C91826C5F83400D3488E /* Present */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		0671C91926C5F83400D3488E /* MVPModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVPModel;
+			sourceTree = "<group>";
+		};
+		0671C91A26C5F83400D3488E /* MVPView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVPView;
+			sourceTree = "<group>";
+		};
+		0671C91B26C5F83400D3488E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0671C91C26C5F83400D3488E /* BSHSignAlertView.h */,
+				0671C91D26C5F83400D3488E /* BSHSignView.h */,
+				0671C91E26C5F83400D3488E /* BSHSignAlertView.m */,
+				0671C91F26C5F83400D3488E /* BSHSignView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0671C92026C5F83400D3488E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0671C92126C5F83400D3488E /* BSHHouseKeeperLogVCViewController.h */,
+				0671C92226C5F83400D3488E /* BSHHouseKeeperLogVCViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		08B84630191F908BBB1F41180A060A5E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0671C91926C5F83400D3488E /* MVPModel */,
+				0671C91A26C5F83400D3488E /* MVPView */,
+				0671C91826C5F83400D3488E /* Present */,
+				0671C91B26C5F83400D3488E /* View */,
+				0671C92026C5F83400D3488E /* ViewController */,
+				A072779D905F29FFE58F41712E1FD7BC /* View */,
+				6F143996791BBC3F7874983E5C60CFA9 /* ViewController */,
+			);
+			name = Class;
+			path = BSHHousekeeperLog/Classes/Class;
+			sourceTree = "<group>";
+		};
 		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +301,6 @@
 				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
 				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -245,34 +324,19 @@
 		1BD2258BDAE29667876D1EB1341D8EAE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF8CF9223BBA6CA9BEC90E86CF46E1BD /* BSHHousekeeperLog */,
+				71E7D5C63B733E371C9564F47AE65450 /* BSHHousekeeperLog */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1D619D25C40C21A963EF97318C06EBF3 /* Support Files */ = {
+		1F4F12370C0BA298EEBA02A1B81C357E /* BSHTarget */ = {
 			isa = PBXGroup;
 			children = (
-				C6BC63BA4F19C4A96E5658A9AD410C5E /* BSHHousekeeperLog.modulemap */,
-				F1DC3040D114B38FCD81510390C67D60 /* BSHHousekeeperLog-dummy.m */,
-				1A275683C7DA6B9A9B9697DA7216DAC0 /* BSHHousekeeperLog-Info.plist */,
-				CAB02DC04489347AD145B8DA1975A1FE /* BSHHousekeeperLog-prefix.pch */,
-				1A9FE7B2A011BA5E12C3D2CAEC4E71C7 /* BSHHousekeeperLog-umbrella.h */,
-				B6885378DBEB19AA15D60EC1D083883B /* BSHHousekeeperLog.debug.xcconfig */,
-				4298C6E28C84CC216BFD8993767A00C7 /* BSHHousekeeperLog.release.xcconfig */,
+				5D04E7F9D3188816D68C02C260D366A8 /* Target_HouseKeeperLog.h */,
+				0377ADE9134397CE96FC0EE88093A7F5 /* Target_HouseKeeperLog.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BSHHousekeeperLog";
-			sourceTree = "<group>";
-		};
-		260F9A8DE5642B896710BC451EFA4255 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				21578CE2AF22B9B80E10A64B1876E05A /* BSHHousekeeperLog.podspec */,
-				33FA772FF243FBF4B17678190843ADC9 /* LICENSE */,
-				6BCB30A1E5DA92FAE4533DDA16DF0134 /* README.md */,
-			);
-			name = Pod;
+			name = BSHTarget;
+			path = BSHHousekeeperLog/Classes/BSHTarget;
 			sourceTree = "<group>";
 		};
 		37CDF088261EDD9C138E5A233A68EB90 /* Pods-BSHHousekeeperLog_Tests */ = {
@@ -311,6 +375,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6F143996791BBC3F7874983E5C60CFA9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B0C809914CECD77ED193AFDF4F6B0 /* BSHHouseKeeperLogVCViewController.h */,
+				D6BB0C964904A54601C80B644B5C4C2F /* BSHHouseKeeperLogVCViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		71E7D5C63B733E371C9564F47AE65450 /* BSHHousekeeperLog */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F12370C0BA298EEBA02A1B81C357E /* BSHTarget */,
+				08B84630191F908BBB1F41180A060A5E /* Class */,
+				D95247643E343AF166B98DF2B92B946F /* Pod */,
+				C73794504A1924D9C0A143BAD69A9E37 /* Support Files */,
+			);
+			name = BSHHousekeeperLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,16 +413,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AF8CF9223BBA6CA9BEC90E86CF46E1BD /* BSHHousekeeperLog */ = {
+		A072779D905F29FFE58F41712E1FD7BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				70970D50E9526737CA0AA0F8F1945853 /* UIColor+ColorChange.h */,
-				706108098D05C091E333D02A395CC9C2 /* UIColor+ColorChange.m */,
-				260F9A8DE5642B896710BC451EFA4255 /* Pod */,
-				1D619D25C40C21A963EF97318C06EBF3 /* Support Files */,
+				9740A9F25114173F7C6E680856A85907 /* BSHSignAlertView.h */,
+				F97E6E970BF97FBC40A4CB77217559CA /* BSHSignAlertView.m */,
+				73A5D64FCD39CF5C3E2449FA3FB4B895 /* BSHSignView.h */,
+				209E87D6AA93E60D300773840F302972 /* BSHSignView.m */,
 			);
-			name = BSHHousekeeperLog;
-			path = ../..;
+			path = View;
+			sourceTree = "<group>";
+		};
+		C73794504A1924D9C0A143BAD69A9E37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				303975DE972CA19C683EA60BD0710E2D /* BSHHousekeeperLog.modulemap */,
+				7F46D68693015DA9BF10CA6A95202ED2 /* BSHHousekeeperLog-dummy.m */,
+				B38509B6F45E6A929695EF87AF13FEBD /* BSHHousekeeperLog-Info.plist */,
+				E4DFE6046AF89B669519FF26E66AD8E5 /* BSHHousekeeperLog-prefix.pch */,
+				2CC81AF6445F716C4174BF50B5C3F5F7 /* BSHHousekeeperLog-umbrella.h */,
+				407BCF863B44A041B7A20643E00120CD /* BSHHousekeeperLog.debug.xcconfig */,
+				64860579EBAD57E859F763769256707E /* BSHHousekeeperLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BSHHousekeeperLog";
 			sourceTree = "<group>";
 		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
@@ -367,6 +466,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		D95247643E343AF166B98DF2B92B946F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6808E68802FFDB9006A981B9B8F16971 /* BSHHousekeeperLog.podspec */,
+				C3F2A892489BB67924EDDF91AEC5BEAE /* LICENSE */,
+				94F837A17D560376B12C4FC0DE6D833A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,26 +496,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27187C1B0BB8BCBC0137F6E33BC7AA11 /* Headers */ = {
+		9A03DBD7C5BAD57001DE64B724B8C7BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB59B5531CB6BD60CC06B5DEBFFE997 /* MASCompositeConstraint.h in Headers */,
-				FCE19E32CE1DF29CAA035742D427074D /* MASConstraint+Private.h in Headers */,
-				ACCD7C4050FC69BB639C97B8B5B538E9 /* MASConstraint.h in Headers */,
-				E91B216B0EFAB67269FBFF2C61DDFFCF /* MASConstraintMaker.h in Headers */,
-				145896172C8A14853247EF1F81DC2FAE /* MASLayoutConstraint.h in Headers */,
-				4F22A7B9524FD19B2B8C43B79AE257D8 /* Masonry-umbrella.h in Headers */,
-				A64004CD6ACEAF1D7F16B3E67E4A581E /* Masonry.h in Headers */,
-				D425B6AC9B3FEBBEF7AF10E1B9B1EB6A /* MASUtilities.h in Headers */,
-				FC0405CEBA10811FEE4D9DD16B201B7F /* MASViewAttribute.h in Headers */,
-				D62E9C051262AE5DF53D464C9A49D225 /* MASViewConstraint.h in Headers */,
-				7FF5B8DE4EECE3BF37560B5274E9C8CF /* NSArray+MASAdditions.h in Headers */,
-				ABB7D0563094575F2D5E6A03EC51C285 /* NSArray+MASShorthandAdditions.h in Headers */,
-				9FA20F72335159E752D7CE97EBC7DD86 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				1A442276F3FF37CB800B19D2C94AA339 /* View+MASAdditions.h in Headers */,
-				2249CF13FD7773DFE32FA53F7F340D6D /* View+MASShorthandAdditions.h in Headers */,
-				F2C9009709D281DA518B8317F3C9F465 /* ViewController+MASAdditions.h in Headers */,
+				932CE6567AA11B98CC29AF8F31AF4C7F /* MASCompositeConstraint.h in Headers */,
+				9D18213B4F17AE3320D080E60D4C79E9 /* MASConstraint+Private.h in Headers */,
+				E91126F2C6357E4766F928C3AAFF9981 /* MASConstraint.h in Headers */,
+				EE612B13A16320C5CB9E0839FF44B05E /* MASConstraintMaker.h in Headers */,
+				686E07C2BFB7835CE5274BFB2008D171 /* MASLayoutConstraint.h in Headers */,
+				A501091FD74FCB5C71C4865B64647738 /* Masonry-umbrella.h in Headers */,
+				3604E842E31C301E72C81376919D722D /* Masonry.h in Headers */,
+				4D7A3598D54A7DA462BA923939D31C98 /* MASUtilities.h in Headers */,
+				BAB91822DF65F2C8F8D6F4816BB6155E /* MASViewAttribute.h in Headers */,
+				91D97CE376A1E807BDF5600E80AF5681 /* MASViewConstraint.h in Headers */,
+				96D775F9A47816E7C24A41217E3FB211 /* NSArray+MASAdditions.h in Headers */,
+				3E8C8722A672A3E17ED658E230D6364D /* NSArray+MASShorthandAdditions.h in Headers */,
+				6E2621DB57F78450154F55BFBC7862AB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				48954FF04331B21A634EC19142F23D92 /* View+MASAdditions.h in Headers */,
+				ABA15B61B7568C373EA39F124B1EBC09 /* View+MASShorthandAdditions.h in Headers */,
+				57737E2AF43536798309C3F6F519D5EA /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,12 +527,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D99B924DF5DDC2962C27F9B18D93067C /* Headers */ = {
+		A9E1A6E441E46E0D6D2D7A49A374A0C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537F10D75CFD77D1F1F9912054A31FC0 /* BSHHousekeeperLog-umbrella.h in Headers */,
-				F73A506ED40A3A69D20416EF4380D44F /* UIColor+ColorChange.h in Headers */,
+				0671C92726C5F83400D3488E /* BSHHouseKeeperLogVCViewController.h in Headers */,
+				05ED1C1F7758AFF12CCBB65E15930EA0 /* BSHHousekeeperLog-umbrella.h in Headers */,
+				0671C92426C5F83400D3488E /* BSHSignView.h in Headers */,
+				0671C92326C5F83400D3488E /* BSHSignAlertView.h in Headers */,
+				2A3C777E4E57FC1560ACFCEF5495A05D /* BSHHouseKeeperLogVCViewController.h in Headers */,
+				D33503DDBF042E9F080100D019603D5F /* BSHSignAlertView.h in Headers */,
+				8103BBE97CBD19519C77424C3ED2683B /* BSHSignView.h in Headers */,
+				8FEC793B244F469197B89624360F5D02 /* Target_HouseKeeperLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +557,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F70BE85F8A06A8722BD7FBF008B1BC6F /* PBXTargetDependency */,
+				96BFCAB4063211BC64C7E951D9FB398A /* PBXTargetDependency */,
 			);
 			name = "Pods-BSHHousekeeperLog_Tests";
 			productName = "Pods-BSHHousekeeperLog_Tests";
@@ -461,8 +576,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE6BE04A9E4847EA3A623A63C342392B /* PBXTargetDependency */,
-				CAB32DB48EA04159139378765239AF71 /* PBXTargetDependency */,
+				505FB662B7433BF484F80D32D6885D9E /* PBXTargetDependency */,
+				CC1915F57A2B15D53D49E0F36AA3FDBB /* PBXTargetDependency */,
 			);
 			name = "Pods-BSHHousekeeperLog_Example";
 			productName = "Pods-BSHHousekeeperLog_Example";
@@ -471,12 +586,12 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7AEA8ECA7A6FF19C6F757A80172DAC7 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = D98F9982562626E9148EFD5B37B1BBB8 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				27187C1B0BB8BCBC0137F6E33BC7AA11 /* Headers */,
-				F163B997477937DA5695CF524E6E140E /* Sources */,
-				925C37B9E041B3FB0DC15036878CD275 /* Frameworks */,
-				9FE1BF8637765170C669CB90CD8F3D51 /* Resources */,
+				9A03DBD7C5BAD57001DE64B724B8C7BF /* Headers */,
+				2807067EA8A10D297A136CDF17558423 /* Sources */,
+				C90E7054639DCBB0C42C47A1291756F2 /* Frameworks */,
+				13F14C50E8894C2123B8FAE1FEC1464A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -489,17 +604,17 @@
 		};
 		C1B5995DD04A298FE720FA67A3EBA2E1 /* BSHHousekeeperLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E926FFF5A7006B4BF3317B4A6F058304 /* Build configuration list for PBXNativeTarget "BSHHousekeeperLog" */;
+			buildConfigurationList = DAB783F5BD8A6FA598A33A8815A40042 /* Build configuration list for PBXNativeTarget "BSHHousekeeperLog" */;
 			buildPhases = (
-				D99B924DF5DDC2962C27F9B18D93067C /* Headers */,
-				46423F68829ABE1932CE1F073AC5D9D3 /* Sources */,
-				791545BED9AEF81591AE98C8996604BC /* Frameworks */,
-				3960099C24D6B4C6725C427159CB97F4 /* Resources */,
+				A9E1A6E441E46E0D6D2D7A49A374A0C7 /* Headers */,
+				89F902FD04953BB526C8EDD5D62CA4B7 /* Sources */,
+				10935585889D90C0E1F0AA7648D71C9D /* Frameworks */,
+				D4404735E73164A94760AB0BE93D94BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				873CF2A1E884177F3AF7BDA153F49450 /* PBXTargetDependency */,
+				FE25242952959C321CB3EB996E5F6FDB /* PBXTargetDependency */,
 			);
 			name = BSHHousekeeperLog;
 			productName = BSHHousekeeperLog;
@@ -537,6 +652,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		13F14C50E8894C2123B8FAE1FEC1464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		192AB67840E3901C071C1CB048289FE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,14 +673,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3960099C24D6B4C6725C427159CB97F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FE1BF8637765170C669CB90CD8F3D51 /* Resources */ = {
+		D4404735E73164A94760AB0BE93D94BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -576,12 +691,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46423F68829ABE1932CE1F073AC5D9D3 /* Sources */ = {
+		2807067EA8A10D297A136CDF17558423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4608C8E807BE91373DF14476191CE860 /* BSHHousekeeperLog-dummy.m in Sources */,
-				5B02422926528C03771025D34239629E /* UIColor+ColorChange.m in Sources */,
+				0B1FD660697C6524C8B580B07D7507F2 /* MASCompositeConstraint.m in Sources */,
+				5A5D6A569F5EB62E5C98C7BCECD21048 /* MASConstraint.m in Sources */,
+				7867958F1D3F16F9FC1586DA2D2AE7E7 /* MASConstraintMaker.m in Sources */,
+				25C3F0818540FC893E5CACE62775DEEC /* MASLayoutConstraint.m in Sources */,
+				5EEA88ACD5C460403D44EB1B4362A585 /* Masonry-dummy.m in Sources */,
+				D8D8FEB966CAE4180565CF5DA8AA2B9A /* MASViewAttribute.m in Sources */,
+				516DE41B4976D2D8DB154072D183CDC1 /* MASViewConstraint.m in Sources */,
+				7B6DA7D6AFB8534DC66A73F61DF95A21 /* NSArray+MASAdditions.m in Sources */,
+				F4E8752B0B0FA6860F4C4721B0ED807B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				CC3FEC7254C22349758CBB7CC8E88FDD /* View+MASAdditions.m in Sources */,
+				C4D4113C75229ED945697125BA13059D /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,50 +717,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F163B997477937DA5695CF524E6E140E /* Sources */ = {
+		89F902FD04953BB526C8EDD5D62CA4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B24B29267890F372477FDF4FB1737E4 /* MASCompositeConstraint.m in Sources */,
-				3B3E5DC02BC15FF8748B5D503CC79CE6 /* MASConstraint.m in Sources */,
-				5286F135E725B52E5621DE14205FBC38 /* MASConstraintMaker.m in Sources */,
-				5B8E958CE9BA206696F534CD8AA1861C /* MASLayoutConstraint.m in Sources */,
-				65F7275FC068095D50F7B793F77E56E4 /* Masonry-dummy.m in Sources */,
-				C41720E433C000B90BCDCDF8592DAB66 /* MASViewAttribute.m in Sources */,
-				587D4F963F2102D059CD818613217429 /* MASViewConstraint.m in Sources */,
-				7350C20B795F65DA7F007056DD703130 /* NSArray+MASAdditions.m in Sources */,
-				D1762A569B680F9D8B1164AB1428847E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				705F1D363C64B265A03264DC60C0A19C /* View+MASAdditions.m in Sources */,
-				E4A8DBEF2A71F60997DB23092E6C2E60 /* ViewController+MASAdditions.m in Sources */,
+				14D74795A191F2939DF718D1C8BAB233 /* BSHHousekeeperLog-dummy.m in Sources */,
+				8C07E8301D6A4E63B371F5B753B0E18A /* BSHHouseKeeperLogVCViewController.m in Sources */,
+				0671C92626C5F83400D3488E /* BSHSignView.m in Sources */,
+				0671C92526C5F83400D3488E /* BSHSignAlertView.m in Sources */,
+				6CF9335D3FBA296C04E83D6CAE4022EE /* BSHSignAlertView.m in Sources */,
+				0671C92826C5F83400D3488E /* BSHHouseKeeperLogVCViewController.m in Sources */,
+				F8C72C982FB0E3BEF52D4B780E1CD722 /* BSHSignView.m in Sources */,
+				32EF4D8482115B65923D306C2D70E8B3 /* Target_HouseKeeperLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		873CF2A1E884177F3AF7BDA153F49450 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = FE492E0FC060ED7D0E2D4BC374BFDE4A /* PBXContainerItemProxy */;
-		};
-		CAB32DB48EA04159139378765239AF71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = D1408C92B97CA7E62DB6A8CFE1E77775 /* PBXContainerItemProxy */;
-		};
-		EE6BE04A9E4847EA3A623A63C342392B /* PBXTargetDependency */ = {
+		505FB662B7433BF484F80D32D6885D9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BSHHousekeeperLog;
 			target = C1B5995DD04A298FE720FA67A3EBA2E1 /* BSHHousekeeperLog */;
-			targetProxy = 4490E906349DE875D4A9ABCF8D8587DC /* PBXContainerItemProxy */;
+			targetProxy = 63C42DD21826592BB3A2467DC1BA3925 /* PBXContainerItemProxy */;
 		};
-		F70BE85F8A06A8722BD7FBF008B1BC6F /* PBXTargetDependency */ = {
+		96BFCAB4063211BC64C7E951D9FB398A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BSHHousekeeperLog_Example";
 			target = 2E3B3CFB2F043A9A688E1A85A6DD21AD /* Pods-BSHHousekeeperLog_Example */;
-			targetProxy = 43168BEA6B3FD1156F89B22A9281FDB8 /* PBXContainerItemProxy */;
+			targetProxy = 28DDA49DC2C1378E889EEAC13F78B4AE /* PBXContainerItemProxy */;
+		};
+		CC1915F57A2B15D53D49E0F36AA3FDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 7C1AE382F6429D20FAEBB3EE9DA52DC1 /* PBXContainerItemProxy */;
+		};
+		FE25242952959C321CB3EB996E5F6FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = D65FF72AE1BC8582C7AC5647F845E0CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -707,36 +828,6 @@
 			};
 			name = Debug;
 		};
-		305605A6C4D2D52D3EB80BB196298095 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		427381DAB3476CFF63C8259A019DB04A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7CB8355792FA2A1062EAD8D418D3CA0 /* Pods-BSHHousekeeperLog_Example.debug.xcconfig */;
@@ -769,9 +860,9 @@
 			};
 			name = Debug;
 		};
-		5283D05794DE6079169B6F98116AE853 /* Debug */ = {
+		5B6E2FA769B140BA4812DED67A3662A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6885378DBEB19AA15D60EC1D083883B /* BSHHousekeeperLog.debug.xcconfig */;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -781,44 +872,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog.modulemap";
-				PRODUCT_MODULE_NAME = BSHHousekeeperLog;
-				PRODUCT_NAME = BSHHousekeeperLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D741FEF1E7D13F3E39B6A4478F3D66F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4298C6E28C84CC216BFD8993767A00C7 /* BSHHousekeeperLog.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog.modulemap";
-				PRODUCT_MODULE_NAME = BSHHousekeeperLog;
-				PRODUCT_NAME = BSHHousekeeperLog;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -863,9 +924,40 @@
 			};
 			name = Release;
 		};
-		B131DB6E63918554C7291D76FF3D30E1 /* Release */ = {
+		A3B10C02568D582813AC4F530963D9C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			baseConfigurationReference = 64860579EBAD57E859F763769256707E /* BSHHousekeeperLog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog.modulemap";
+				PRODUCT_MODULE_NAME = BSHHousekeeperLog;
+				PRODUCT_NAME = BSHHousekeeperLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7FC2E28699002BB7F71548618E3EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -888,11 +980,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -949,12 +1040,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		D60B6ED1A399D8B0719D73A6A9D05B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407BCF863B44A041B7A20643E00120CD /* BSHHousekeeperLog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSHHousekeeperLog/BSHHousekeeperLog.modulemap";
+				PRODUCT_MODULE_NAME = BSHHousekeeperLog;
+				PRODUCT_NAME = BSHHousekeeperLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DC938A0EAD1259C1412214B4265CE3EA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1051,20 +1171,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E926FFF5A7006B4BF3317B4A6F058304 /* Build configuration list for PBXNativeTarget "BSHHousekeeperLog" */ = {
+		D98F9982562626E9148EFD5B37B1BBB8 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5283D05794DE6079169B6F98116AE853 /* Debug */,
-				5D741FEF1E7D13F3E39B6A4478F3D66F /* Release */,
+				B7FC2E28699002BB7F71548618E3EBC9 /* Debug */,
+				5B6E2FA769B140BA4812DED67A3662A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7AEA8ECA7A6FF19C6F757A80172DAC7 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		DAB783F5BD8A6FA598A33A8815A40042 /* Build configuration list for PBXNativeTarget "BSHHousekeeperLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				305605A6C4D2D52D3EB80BB196298095 /* Debug */,
-				B131DB6E63918554C7291D76FF3D30E1 /* Release */,
+				D60B6ED1A399D8B0719D73A6A9D05B2B /* Debug */,
+				A3B10C02568D582813AC4F530963D9C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

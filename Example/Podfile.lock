@@ -1,5 +1,5 @@
 PODS:
-  - BSHHousekeeperLog (1.0.2):
+  - BSHHousekeeperLog (1.0.3):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BSHHousekeeperLog: 57353fb02c6d6a7cd6475ea94d979018c56eb222
+  BSHHousekeeperLog: 73ca84dc749e631b5a011b9f54271e72680ef8fc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: a7337af95fea1db1ea78fe7ca6ac9973b92ffe43
